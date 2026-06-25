@@ -1,0 +1,90 @@
+object Form1: TForm1
+  Left = 215
+  Height = 496
+  Top = 223
+  Width = 590
+  Caption = 'Form1'
+  ClientHeight = 496
+  ClientWidth = 590
+  DesignTimePPI = 120
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object lbl_num10for: TLabel
+    Left = 24
+    Height = 20
+    Top = 40
+    Width = 171
+    Caption = 'Posiciones de 10 con FOR:'
+  end
+  object btn_cargar: TButton
+    Left = 416
+    Height = 55
+    Top = 48
+    Width = 94
+    Caption = 'Cargar datos'
+    TabOrder = 0
+    OnClick = btn_cargarClick
+  end
+  object lbl_num10while: TLabel
+    Left = 24
+    Height = 20
+    Top = 104
+    Width = 188
+    Caption = 'Posiciones de 10 con WHILE:'
+  end
+  object lbl_num10repeat: TLabel
+    Left = 24
+    Height = 20
+    Top = 72
+    Width = 194
+    Caption = 'Posiciones de 10 con REPEAT:'
+  end
+  object btn_multiplos: TButton
+    Left = 24
+    Height = 31
+    Top = 160
+    Width = 278
+    Caption = 'Buscar, contar y mostrar los múltiplos'
+    TabOrder = 1
+    OnClick = btn_multiplosClick
+  end
+  object btn_multiplosnumuser: TButton
+    Left = 24
+    Height = 31
+    Top = 208
+    Width = 94
+    Caption = 'Punto 5 y 6'
+    TabOrder = 2
+    OnClick = btn_multiplosnumuserClick
+  end
+  object lbl_punto5: TLabel
+    Left = 24
+    Height = 1
+    Top = 248
+    Width = 1
+  end
+  object combox_punto6: TComboBox
+    Left = 168
+    Height = 28
+    Top = 208
+    Width = 160
+    ItemHeight = 20
+    TabOrder = 3
+    Text = 'Punto 6 (multiplos)'
+  end
+  object lbl_punto7: TLabel
+    Left = 24
+    Height = 1
+    Top = 330
+    Width = 1
+  end
+  object listbox_punto7: TListBox
+    Left = 366
+    Height = 144
+    Top = 160
+    Width = 192
+    ItemHeight = 0
+    TabOrder = 4
+    OnClick = listbox_punto7Click
+  end
+end
